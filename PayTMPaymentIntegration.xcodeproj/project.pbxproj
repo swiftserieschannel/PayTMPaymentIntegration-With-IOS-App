@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17597D0922BA880F003209B4 /* PaymentSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17597D0722BA86D0003209B4 /* PaymentSDK.framework */; };
+		17597D0A22BA880F003209B4 /* PaymentSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 17597D0722BA86D0003209B4 /* PaymentSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1787CAED2246068C0076EE39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787CAEC2246068C0076EE39 /* AppDelegate.swift */; };
 		1787CAEF2246068C0076EE39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787CAEE2246068C0076EE39 /* ViewController.swift */; };
 		1787CAF22246068C0076EE39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1787CAF02246068C0076EE39 /* Main.storyboard */; };
 		1787CAF42246068F0076EE39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1787CAF32246068F0076EE39 /* Assets.xcassets */; };
 		1787CAF72246068F0076EE39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1787CAF52246068F0076EE39 /* LaunchScreen.storyboard */; };
-		17CC1F0222460D46002E22FA /* PaymentSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CC1F0022460D29002E22FA /* PaymentSDK.framework */; };
-		17CC1F0322460D46002E22FA /* PaymentSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 17CC1F0022460D29002E22FA /* PaymentSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		17CC1F0622460D80002E22FA /* WSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC1F0522460D80002E22FA /* WSManager.swift */; };
 		17CC1F0822460E2F002E22FA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC1F0722460E2F002E22FA /* Constant.swift */; };
 		17CC1F0A22460E75002E22FA /* ChecksumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CC1F0922460E75002E22FA /* ChecksumModel.swift */; };
@@ -27,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				17CC1F0322460D46002E22FA /* PaymentSDK.framework in Embed Frameworks */,
+				17597D0A22BA880F003209B4 /* PaymentSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		17597D0722BA86D0003209B4 /* PaymentSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PaymentSDK.framework; sourceTree = "<group>"; };
 		1787CAE92246068C0076EE39 /* PayTMPaymentIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayTMPaymentIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1787CAEC2246068C0076EE39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1787CAEE2246068C0076EE39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		1787CAF32246068F0076EE39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1787CAF62246068F0076EE39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1787CAF82246068F0076EE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17CC1F0022460D29002E22FA /* PaymentSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PaymentSDK.framework; sourceTree = "<group>"; };
 		17CC1F0522460D80002E22FA /* WSManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WSManager.swift; sourceTree = "<group>"; };
 		17CC1F0722460E2F002E22FA /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		17CC1F0922460E75002E22FA /* ChecksumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecksumModel.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17CC1F0222460D46002E22FA /* PaymentSDK.framework in Frameworks */,
+				17597D0922BA880F003209B4 /* PaymentSDK.framework in Frameworks */,
 				6AF24AA7249653A0CA5A7457 /* Pods_PayTMPaymentIntegration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,7 +67,7 @@
 		1787CAE02246068B0076EE39 = {
 			isa = PBXGroup;
 			children = (
-				17CC1F0022460D29002E22FA /* PaymentSDK.framework */,
+				17597D0722BA86D0003209B4 /* PaymentSDK.framework */,
 				1787CAEB2246068C0076EE39 /* PayTMPaymentIntegration */,
 				1787CAEA2246068C0076EE39 /* Products */,
 				4840C90E6206190CFF8221E2 /* Pods */,

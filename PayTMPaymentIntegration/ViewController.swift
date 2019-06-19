@@ -46,7 +46,7 @@ class ViewController: UIViewController {
     }
     
     private func getCheckSumAPICall(){
-        let apiStruct = ApiStruct(url: "http://192.168.43.136:8888/PHP/generateChecksum.php", method: .post, body: params)
+        let apiStruct = ApiStruct(url: "http://192.168.43.221:8888/PHP/generateChecksum.php", method: .post, body: params)
         WSManager.shared.getJSONResponse(apiStruct: apiStruct, success: { (checkSumModel: CheckSumModel) in
             self.setupPaytm(checkSum: checkSumModel.CHECKSUMHASH!, params: self.params)
         }) { (error) in
